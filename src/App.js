@@ -9,8 +9,8 @@ function App() {
       <div>
         <h2>Счетчик:</h2>
         <h1>{count}</h1>
-        <button onClick={()=> setCount(count+ 1)} className="minus">- Минус</button> 
-        <button onClick={()=> setCount(count-1)} className="plus">Плюс +</button>
+        <button onClick={()=> setCount(count- 1)} className="minus">- Минус</button>
+        <button onClick={()=> setCount(count+1)} className="plus">Плюс +</button>
         <button onClick={()=> setCount(0)} className="minus">Сброс</button>
       </div>
     </div>
